@@ -29,7 +29,7 @@ b. Drill down into any months that stand out to investigate. What do you find?
 6. Create a new column titled Last Name. Extract the last name from the Name column by subsetting to all characters to the left of the comma (see the DataCamp exercise titled "String Information - LEN, SEARCH" from the Data Analysis with Spreadsheets if you need help with this). This will result in many errors for rows missing commas.   
     a.  Drill down to those rows without a comma - what do you notice?  
     b.  What are the most common last names of people buried in this cemetery?  
-    c.  There was a particularly famous person buried in this cemetery. Can you find that person?
+    c.  There was a particularly famous person buried in this cemetery. Can you find that person? Ex President Polk
 
 7. The Civil War ended in April, 1865, with the last full year of fighting occurring in 1864.  
     a. Create an additional sheet using FILTER() to pull only the burials that occurred in 1864. Name this new sheet "Burials_1864". In this new sheet, create a new column called age_category. If the individual was age 0 put "Infant". If the individual was not an infant but under age 18, put "Child". Everyone aged 18 and above should be listed as "Adult".
